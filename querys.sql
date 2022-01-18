@@ -166,7 +166,7 @@ SELECT * FROM salaries WHERE salary >= 14000 AND salary <= 50000;
 +--------+--------+------------+------------+
 
 
-mysql> SELECT COUNT(emp_no) FROM employees;
+mysql> SELECT COUNT(*) FROM employees;
 +---------------+
 | COUNT(emp_no) |
 +---------------+
